@@ -1,0 +1,369 @@
+
+@media(max-width: 600px) {	/*smartphone*/
+	html {
+		background-color: #7697AB;
+		font-family: "Gill Sans", sans-serif;
+
+	}
+	div{
+		
+		margin-top: 3px;
+		padding: 2px;
+		text-align: center;
+	}
+	header {
+		text-align: center;
+		padding: 3px;
+	}	
+	#logo img{
+		width: 20%;
+	}
+	#mainbar {
+		border-top: solid 2px black;
+		border-bottom: solid 2px black;
+	}
+	#mainbar div {
+		
+		padding: 2px;
+	}
+	#mainbar div div {
+		width: fit-content;
+		display: inline-flex;
+		background-color: #FCBB71;
+	}
+	#mainbar img {
+		float: right;
+		width: 20px;
+		height: 15px;
+		position: relative;
+		
+	}
+
+	#login {
+		float: left;
+	}
+	#menubar div {
+		height: fit-content;
+		display: inline-table;
+		margin: 10px;
+		background-color: #F6C24A;
+
+		
+	}
+	#menubar {
+		margin-top: 10px;
+		height: fit-content;
+		display: inline-table;
+		background-color: #7697A8;
+		border-top: solid 2px black;
+		border-bottom: solid 2px black;
+		
+	}
+
+	#menubar div{
+		text-align: center;
+		
+	}
+	#menubar div div{
+		list-style: none;
+		display: none;
+
+	} 
+	
+	#menubar div:hover div {
+		display: inline;
+		
+		
+		
+	
+	}
+	#menubar div:hover div p {
+		border-top: solid 1px black;
+	
+	}
+
+
+
+
+	main {
+		text-align: center;
+		display: block;
+	}
+	main div#quickview {
+		width: 50%;
+		height: 200px;
+		display: inline-block;
+	}
+	#summary div img {
+		max-width: 75%;
+	}
+	#summary div{
+		background-color: #B5BABC;
+	}
+	div{
+		background-color: #7697AB;
+		
+			
+	}
+
+	
+	#order button {
+	background-color: #F6C24A;
+	border: none;
+	}
+	footer {
+		
+		text-align: center;
+		margin-top: 10px;
+	}
+	footer div {
+		display: inline-table;
+		width: 30%;
+		margin: 1px;
+		text-align: center;
+		
+	}
+	footer div p {
+		border-top: solid 1px black;
+		
+	}
+
+	
+
+	#quickview {
+		margin-top: 12px;
+		
+		overflow: scroll;
+		
+		
+
+		/* overflow pour faire une div avec une scrool bar */
+
+	}
+	#quickview div {
+		display: inline-block;
+
+		
+	}
+
+	#quickview div img {
+		width: 100%;
+	}	
+	#livraison {
+		margin-top: 10px;
+		border: solid 1px black;
+		display: inline-table;
+		padding: 5px;
+	}
+	
+
+}
+
+
+
+@media (min-width: 601px) {	/*ordinateur*/
+	html {
+		background-color: #7697AB;
+		font-family: "Gill Sans", sans-serif;
+
+	}
+	div{
+		text-align:center;
+	}
+	header {
+		text-align: center;
+		
+		padding: 3px;
+	}	
+	h1 {
+		font-size: 20px;
+	}
+	#logo img{
+		width: 20%;
+	}
+	#mainbar {
+		border-top: solid 2px black;
+		border-bottom: solid 2px black;
+	}
+	#mainbar div {
+	
+		padding: 2px;
+	}
+	#mainbar div div {
+		width: fit-content;
+		display: inline-flex;
+		background-color: #FCBB71;
+	}
+	#mainbar img {
+		float: right;
+		width: 20px;
+		height: 15px;
+		position: relative;
+		
+	}
+
+	#login {
+		float: left;
+	}
+	#menubar div {
+		height: fit-content;
+		display: inline-table;
+		margin: 10px;
+		background-color: #F6C24A;
+
+		
+	}
+	#menubar {
+		margin-top: 10px;
+		border-top: solid 2px black;
+		border-bottom: solid 2px black;
+		height: fit-content;
+		display: inline-table;
+		background-color: #7697A8;
+	}
+
+	#menubar div{
+		text-align: center;
+		
+	}
+	#menubar div div{
+		list-style: none;
+		display: none;
+
+	} 
+	
+	#menubar div:hover div {
+		display: inline;
+		
+		
+		
+	
+	}
+	#menubar div:hover div p {
+		border-top: solid 1px black;
+	
+	}
+
+
+	main {
+		text-align: center;
+		display: inline-table;
+		
+		}
+	main div {
+
+		display: inline-block;
+	}
+	
+	main div img {
+		max-width: 75%;
+
+	}
+	
+	#summary {
+		display: inline-flex;
+	}
+
+	#summary div img {
+		max-width: 50%;
+	}
+	#summary div {
+		width: 49%;
+		margin: 1px;
+		background-color: #B5BABC;
+		
+	}
+	#summary div div {
+		text-align: center;
+		position: relative;
+		left: 25%;
+	}
+	
+	#order {
+		display: grid;
+
+	}	
+	#order button {
+	background-color: #F6C24A;
+	border: none;
+	}
+	div {
+		background-color: #7697AB;
+	
+		
+	
+		
+	}
+
+	footer {
+		
+		text-align: center;
+		margin-top: 15px;
+	}
+	footer div {
+		display: inline-table;
+		width: 30%;
+		margin: 1px;
+		text-align: center;
+	}
+	footer div p {
+		border-top: solid 1px black;
+		
+	}
+	p {
+		text-align: center;
+	}
+
+	
+
+	#quickview {
+		margin-top: 12px;
+		width: 75%;
+		height: 150px;
+		background-color: white;
+		overflow: scroll;
+		/* overflow pour faire une div avec une scrool bar */
+
+	}
+	#quickview div {
+		width: 32%;
+		display: inline-table;
+		background-color: white;
+	}
+
+	#quickview div img {
+		width: 100%;
+	}
+
+
+	#livraison {
+		margin-top: 10px;
+		border: solid 1px black;
+		display: inline-table;
+		padding: 5px;
+
+	}
+	#search {
+		margin-top: 10px
+		
+
+	}
+}
+
+	a{
+		text-decoration: none;
+		color: black;
+	}
+	.confirm {
+		background-color: #F6C24A;
+	}
+	h2 {
+		text-decoration: bold;
+		font-size: 20px;
+	}
+	#search button {
+		background-color: #F6C24A;
+	}
+	#search div {
+		display: inline-block;
+	}

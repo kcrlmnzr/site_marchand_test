@@ -1,0 +1,355 @@
+
+@media (max-width: 600px) {		/*media smartphone*/
+	html {
+		font-family: "Gill Sans", sans-serif;
+		background-color: #7697A8;
+
+	}
+	div {
+		height: fit-content;		/*150px*/
+		margin-top: 5px;
+		text-align: center;
+	}
+	#logo img {
+		width: 20%;
+	}
+	
+	
+	#contenu {
+		height: fit-content;	/* 400px*/
+		background-color: #7697A8;
+	}
+	#offers div  {
+		border: solid 1px black; 
+		margin-top: 5px;
+		margin: 2px;
+		background-color: #B5BABC;
+
+	}
+	
+	header {
+		background-color: #7697A8;
+		text-align: center;
+
+	}
+	#mainbar {
+		border-top: solid 2px black;
+		border-bottom: solid 2px black;
+		margin: 7px;
+	}
+	#mainbar img {
+		float: right;	
+		width: 20px;
+		height: 15px;
+		bottom: 30px;
+
+			}
+	
+
+	#gender {
+		height: fit-content;
+	}
+	#gender div {
+		height: 15px;
+		padding: 2px;
+		background-color: #F6C24A;
+	}
+	
+	footer {
+		margin-top: 7px;
+		width: 100%;
+		text-align: center;
+		background-color: #7697A8;
+		
+			}
+	
+	footer div {
+		width: fit-content;
+		display: inline-table;
+		padding-left: 10px;
+		margin: 3px;
+
+	}
+	footer div p{
+		border-top: solid 1px black;
+
+	}
+
+	#menubar div {
+		height: fit-content;
+		display: inline-table;
+		margin: 10px;
+		background-color: #F6C24A;
+
+		
+	}
+	#menubar {
+		margin-top: 7px;
+		height: fit-content;
+		display: inline-table;
+		background-color: #7697A8;
+		border-top: solid 2px black;
+		border-bottom: solid 2px black;
+	}
+
+	#menubar div{
+		text-align: center;
+		
+	}
+	#menubar div div{
+		list-style: none;
+		display: none;
+
+	} 
+	
+	#menubar div:hover div {
+		display: inline;
+		position: relative;
+		
+		
+	
+	}
+	#menubar div:hover div p {
+		border-top: solid 1px black;
+	
+	}
+	
+	
+	#contenu div div img{
+		width: 100%;
+	}
+	
+	button {
+		background-color: #F6C24A;
+	}
+	#search {
+		padding: 10px;	
+			}
+	#search div {
+		display: inline-flex;
+	}
+	@keyframes fondu{
+    0%{background-image: url("image/jordan1_banniere8.jpg");}
+    33.33%{background-image: url("image/jordan_banniere6.jpg");}
+    66.67%{background-image: url("image/jordan_banniere2.jpg");}
+    100%{background-image: url("image/jordan1_banniere7.jpg");}
+	}
+
+	.d1{
+	    width: 100%;
+	    height: 0px;
+	    padding-top: 75%;
+	    box-shadow: 0px 0px 10px #777;
+	    background-color: #EDEDED;
+	    background-size: contain;
+	    animation: fondu 20s ease-in-out infinite both;
+	}
+	.d1:hover{
+	    animation-play-state: paused;   
+	}
+	a {
+		text-decoration: none;
+		color: black;
+
+	}
+		#identity {
+		width: fit-content;
+		
+		}
+	#login {
+		width: fit-content;
+		
+		float: left;
+		clear: both;
+	}
+	#main_bar {
+	}
+	#login, #identity {
+		display: inline-flex;
+		margin: 1px;
+		background-color: #FCBB71;
+	}
+	
+}
+
+
+
+
+
+
+@media (min-width: 601px) {	/*media pour tablette et ordi*/
+	html {
+		font-family: "Gill Sans", sans-serif;
+		background-color: #7697A8;
+
+	}
+	#logo {
+		text-align: center;
+		height: 100px;
+	}
+	#logo img {
+		width: 100px;
+		height: 100px;
+	}
+	header {
+		padding: 5px;
+		text-align: center;
+	}
+	
+	#mainbar img {
+		float: right;	
+		width: 2%;
+		position: relative;
+		bottom: 2px;
+
+			}
+	#mainbar {
+		border-top: solid 2px black;
+		border-bottom: solid 2px black;
+		padding: 5px;
+	}
+
+	#menubar {
+		margin-top: 10px;
+		padding: 5px;
+		border-top: solid 2px black;
+		border-bottom: solid 2px black;
+	}
+	#menubar div  {
+		background-color: #F6C24A;
+		display: inline-table;
+		width: 32%;
+
+	}
+	#menubar div div  {
+		display: none;
+	}
+	#menubar div:hover div  {
+		display: inline;
+		position: relative; 
+	}
+	
+	#menubar div p {
+		border-top: solid 1px black;
+	}
+
+	div{
+		text-align: center;
+
+	}
+
+	
+	#pub {
+		border: solid 1px black;
+		
+	}
+	
+	#contenu {
+		
+		padding: 5px;
+		text-align: center;
+		background-color: #7697A8;
+		margin-top: 3px;
+	}
+	#gender {
+		padding: 3px;
+		border-top: solid 2px black;
+		border-bottom: solid 2px black;
+		text-align: ;
+	}
+	#gender div{
+		padding: 2px;
+		margin-top: 2px;
+		background-color: #F6C24A;
+	}
+	#offers div{
+		border: solid 1px black;
+		padding: 3px;
+		margin-top: 2px;
+		width: 40%;
+		text-align: center;
+		display: inline-table;
+		background-color: #B5BABC;
+
+	}
+	#contenu div div a img{
+		width: 30%;
+				
+		
+	}
+	footer {
+		
+		text-align: center;
+		margin-top: 3px;
+	}
+	footer div {
+		padding-left: 5px;
+		margin-top: 3px;
+		margin-bottom: 3px;
+		width: 30%;
+		text-align: center;
+		display: inline-table;
+		}
+	footer div p {
+		border-top: solid 1px black;
+
+	}
+
+	button {
+		background-color: #F6C24A;
+	}
+
+	#search {
+		padding: 10px;
+		
+	}
+	#search div {
+		display: inline-flex;
+	}
+
+	@keyframes fondu{
+    0%{background-image: url("image/jordan1_banniere8.jpg");}
+    33.33%{background-image: url("image/jordan_banniere6.jpg");}
+    66.67%{background-image: url("image/jordan_banniere2.jpg");}
+    100%{background-image: url("image/jordan1_banniere7.jpg");}
+	}
+
+	.d1{
+	    
+	    padding-top: 75%;
+	    box-shadow: 0px 0px 10px #777;
+	    background-color: #EDEDED;
+	    background-size: 100%;
+	    animation: fondu 20s ease-in-out infinite both;
+	}
+	.d1:hover{
+	    animation-play-state: paused;
+	    
+	}
+	a {
+		text-decoration: none;
+		color: black;
+
+	}
+	#identity {
+		width: fit-content;
+		
+		}
+	#login {
+		width: fit-content;
+		
+		float: left;
+		clear: both;
+	}
+	#main_bar {
+	}
+	#login, #identity {
+		display: inline-flex;
+		background-color: #FCBB71;
+
+
+	}
+}
+
+
+

@@ -1,0 +1,380 @@
+
+@media (min-width: 601px) {	/*media pour ordinateur */
+	html {
+		font-family: "Gill Sans", sans-serif;
+		background-color: #7697AB;
+	}
+	div{
+		margin-top: 3px;
+		padding: 2px;
+		text-align:center;
+	}
+	header {
+		text-align: center;
+		padding: 3px;
+	}	
+
+	#logo img{
+		width: 20%;
+		}
+
+	#mainbar {
+		border-top: solid 2px black;
+		border-bottom: solid 2px black;
+		padding: 2px;
+	}
+	
+	#mainbar div {
+		padding: 2px
+		background-color: #F6C24A;
+		
+	}
+	
+	
+	#mainbar div div {
+		width: fit-content;
+		
+	}
+	#mainbar img {
+		float: right;
+		width: 3%;
+		position: relative;
+		bottom: 25px;
+	}
+	#menubar div {
+		height: fit-content;
+		display: 
+		margin: 10px;
+		background-color: #F6C24A;
+
+		
+	}
+	#menubar {
+		margin-top: 10px;
+		border-top: solid 2px black;
+		border-bottom: solid 2px black;
+		height: fit-content;
+		display: inline-table;
+		background-color: #7697A8;
+	}
+
+	#menubar div{
+		text-align: center;
+		display: inline-table;
+		margin: 10px;
+
+		
+	}
+
+	#menubar div div{
+		list-style: none;
+		display: none;
+
+		
+	} 
+	
+	#menubar div:hover div {
+		display: inline;
+		position: relative;
+	}
+
+	#menubar div:hover div p {
+		border-top: solid 1px black;
+	
+	}
+
+	div {
+		text-align: center;
+	}
+
+
+	#login {
+		float: left;
+
+	}
+
+
+	main {
+		text-align: center;
+		display: flex;
+		
+		}
+	
+	main div img {
+		max-width: 100%;
+
+	}
+	main div {
+		
+		text-align: center;
+	}
+	#info{
+		display: inline-flex;
+		height: fit-content;
+		text-align: center;
+
+	}
+	#article {
+		width: 40%;
+	}
+	#formulaire {
+		background-color: lightgrey;
+		display: grid;
+		width: 20%;
+	}
+	#com {
+		width: 50%;		
+	}
+	#search {
+		margin-bottom: 10px;
+	}
+
+	textarea {
+		width: 80%;
+	}
+	#formulaire div img{
+		max-width: 10%;
+		margin-right: 7px;
+		}
+
+	a {
+		text-decoration: none;
+		color: black;
+	}
+	#add_cart {
+		background-color: #FCBB71;
+	}
+
+	.fake {
+		border: solid 1px black;
+		text-align: left;
+		background-color: #B5BABC;
+	}
+
+	
+	footer {
+		
+		text-align: center;
+		margin-top: 15px;
+		padding: 5px; 
+	}
+	footer div {
+		display: inline-table;
+		width: 30%;
+		margin: 1px;
+		text-align: center;
+	}
+	footer div p {
+		border-top: solid 1px black;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	h2 {
+		border-top: solid 1px black;
+		border-bottom: solid 1px black;
+		font-size: 25px;
+
+	}
+	h3 {
+		font-size: 20px;
+		font-weight: normal;
+		text-decoration: underline;
+	}
+	button {
+		position: relative;
+		left: 2%;
+	}
+
+
+}
+
+
+
+@media(max-width: 600px){/* media pour smartphone*/
+	html {
+		font-family: "Gill Sans", sans-serif;
+		background-color: #7697AB;
+	}
+	div{
+		
+		margin-top: 3px;
+		padding: 2px;
+		text-align: center;
+	}
+	header {
+		text-align: center;
+		padding: 3px;
+	}	
+	#logo img{
+		width: 20%;
+	}
+	#mainbar div {
+		border-top: solid 2px black;
+		border-bottom: solid 2px black;
+		padding: 2px;
+	}
+	#mainbar div div {
+		width: fit-content;
+		display: inline-flex;
+		background-color: #FCBB71;
+	}
+	#mainbar img {
+		float: right;
+		width: 20px;
+		height: 15px;
+		position: relative;
+		bottom: 23px;
+	}
+
+	#login {
+		float: left;
+	}
+	#menubar div {
+		height: fit-content;
+		display: inline-table;
+		margin: 10px;
+		background-color: #F6C24A;
+
+		
+	}
+	#menubar {
+		margin-top: 10px;
+		height: fit-content;
+		display: inline-table;
+		background-color: #7697A8;
+		border-top: solid 2px black;
+		border-bottom: solid 2px black;
+	}
+
+	#menubar div{
+		text-align: center;
+		
+	}
+	#menubar div div{
+		list-style: none;
+		display: none;
+
+	} 
+	
+	#menubar div:hover div {
+		display: inline;
+		
+		
+		
+	
+	}
+	#menubar div:hover div p {
+		border-top: solid 1px black;
+	
+	}
+
+
+
+	main {
+		margin-top: 7px;
+		text-align: center;
+
+	}
+	div {
+		padding: 3px;
+		
+			}
+	main div img {
+		max-width: 100%;
+
+	}
+	#formulaire {
+		background-color: lightgrey;
+	}
+
+	textarea {
+		width: 80%;
+	}
+	#formulaire div img{
+		max-width: 5%;
+		margin-right: 7px;
+	}
+	a {
+		text-decoration: none;
+		color: black;
+	}
+	#add_cart {
+		
+		background-color: #FCBB71;
+	}
+	.fake {
+		border: solid 1px black;
+		text-align: left;
+		background-color: #B5BABC;
+	}
+
+	
+	footer {
+		
+		text-align: center;
+		margin-top: 3px;
+		padding: 5px; 
+	}
+	footer div {
+		display: inline-table;
+		width: 30%;
+		margin: 1px;
+		text-align: center;
+		
+		
+	}
+	footer div p {
+		border-top: solid 1px black;
+	}
+	h1 {
+		font-size: 20px;
+	}
+	h2 {
+		border-top: solid 1px black;
+		border-bottom: solid 1px black;
+		font-size: 25px;
+
+	}
+	h3 {
+		font-size: 20px;
+		font-weight: normal;
+		text-decoration: underline;
+	}
+	button {
+		position: relative;
+		left: 2%;
+
+	}
+
+}
+#search button {
+	background-color: #F6C24A;
+
+}
+#search div {
+		display: inline-block;
+	}
+
+#login {
+	background-color: #F6C24A;
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
